@@ -9,10 +9,23 @@
 
 <style>
 #app {
-  width: 600;
+  width: 800px;
   padding: 18px 30px;
   font-family: Hack, Avenir, Helvetica, Arial, sans-serif;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.4;
 }
 </style>

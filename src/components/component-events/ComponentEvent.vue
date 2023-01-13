@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Component Event & Emit</h1>
     <button @click="showPopup = true">Open Popup</button>
     <PopupChild v-show="showPopup" @close="closePopup" />
   </div>
