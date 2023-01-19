@@ -32,15 +32,18 @@ export default {
 #app {
   width: 800px;
   padding: 18px 30px;
+
   font-family: Hack, Avenir, Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 16px;
-  margin: 0px auto;
+  margin: 30px auto;
 }
 
 h1 {
   font-size: 24px;
-  margin-top: 35px;
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1px solid #123;
 }
 
 h2 {
