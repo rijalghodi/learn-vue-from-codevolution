@@ -7,6 +7,27 @@
   <router-view></router-view>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      name: "Learn Vue",
+    };
+  },
+  provide() {
+    return {
+      projectName: this.name,
+    };
+  },
+  /*
+  // If the data is not inherited from data(), then you can use this syntax
+  provide: {
+    projectName: "Learn Vue"
+  }
+   */
+};
+</script>
+
 <style>
 #app {
   width: 800px;
@@ -19,6 +40,7 @@
 
 h1 {
   font-size: 24px;
+  margin-top: 35px;
 }
 
 h2 {
