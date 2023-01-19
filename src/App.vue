@@ -2,7 +2,8 @@
   <div>
     <router-link to="/">Home</router-link> |
     <router-link to="/template">Template Manipulations</router-link> |
-    <router-link to="/script">Script Manipulations</router-link>
+    <router-link to="/script">Script Manipulations</router-link> |
+    <router-link to="/http-request">HTTP Request</router-link>
   </div>
   <router-view></router-view>
 </template>

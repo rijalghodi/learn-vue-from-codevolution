@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeApp from "@/views/Home.vue";
 import TemplateManipulations from "@/views/TemplateManipulations.vue";
 import ScriptManipulations from "@/views/ScriptManipulations.vue";
+import HTTPRequest from "@/views/HTTPRequest.vue";
 
 // 2. Define some routes
 // Each route should map to a component.
@@ -11,6 +12,7 @@ const routes = [
   { path: "/", component: HomeApp },
   { path: "/template", component: TemplateManipulations },
   { path: "/script", component: ScriptManipulations },
+  { path: "/http-request", component: HTTPRequest },
 ];
 
 // 3. Create the router instance and pass the `routes` option
