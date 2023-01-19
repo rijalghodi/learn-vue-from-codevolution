@@ -19,6 +19,8 @@
   <ComponentVModel />
 
   <SlotExperiment />
+
+  <MixinExperiment />
 </template>
 
 <script>
@@ -30,6 +32,7 @@ import ProvideAndInject from "@/components/provide-inject/ProvideAndInject.vue";
 import WatcherExperiment from "@/components/watcher/WatcherExperiment.vue";
 import ComponentVModel from "@/components/component-v-model/ComponentVModel.vue";
 import SlotExperiment from "@/components/slot/SlotExperiment.vue";
+import MixinExperiment from "@/components/mixin/MixinExperiment.vue";
 
 export default {
   name: "ScriptManipulations",
@@ -48,6 +51,7 @@ export default {
     WatcherExperiment,
     ComponentVModel,
     SlotExperiment,
+    MixinExperiment,
   },
 };
 </script>
